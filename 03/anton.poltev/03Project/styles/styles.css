@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-block {
+  background-color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.headername .headertext {
+  color: #eeeeee;
+  font-size: 60pt;
+  margin: 45px 0px 50px 70px;
+}
+
+.headernavi {
+  margin: 75px 70px 50px 0px;
+  margin-left: auto;
+}
+
+.headernavi .navibotton {
+  list-style-type: none;
+}
+
+.headernavi .startpage {
+  color: #03a6e2;
+}
+
+.headernavi p {
+  display: inline-block;
+}
+
+.headernavi a {
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+.headernavi .navidecor {
+  color: #eeeeee;
+  padding: 0px 12px;
+  font-size: 16pt;
+}
+
+.work-space {
+  margin: 0px 70px;
+  text-align: left;
+}
+
+.welcom-text .teitletext {
+  font-size: 60pt;
+  font-weight: bold;
+  color: #333333;
+}
+
+.welcom-text .teitletext p {
+  margin-bottom: 0px;
+}
+
+.welcom-text .teitletext span {
+  color: aqua;
+}
+
+.welcom-text .titlecomment {
+  font-size: 50pt;
+  color: #bbbbbb;
+}
+
+.welcom-text .titlecomment p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.welcom-text .maintext {
+  font-size: 34pt;
+  color: #555555;
+}
+
+.welcom-text .maintext span {
+  font-weight: bold;
+}
+
+.welcom-text .bottomline {
+  border-bottom: 1px solid #bbbbbb;
+  margin: 36px 0px;
+}
+
+.block-url {
+  text-align: center;
+}
+
+.block-url .webdisignblock,
+.block-url .marketingblock,
+.block-url .optimizationblock {
+  border: 1px solid #00aeef;
+  -webkit-box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+          box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+  background: #00aeef;
+  padding: 0px 24px;
+  text-align: center;
+  width: 310px;
+  height: 425px;
+  display: inline-block;
+  margin: 45px 0px;
+}
+
+.block-url .webdisignblock .bottom,
+.block-url .marketingblock .bottom,
+.block-url .optimizationblock .bottom {
+  text-decoration: none;
+  display: inline-block;
+  background: #0076a3;
+  color: #fff;
+  padding: 15px 42px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 14pt;
+  line-height: 1;
+  font-weight: 100;
+  margin-top: 47px;
+  margin-bottom: 34px;
+}
+
+.block-url .marketingblock {
+  margin: 0px 60px;
+}
+
+.block-url .blockheader {
+  color: #ffffff;
+  font-size: 40pt;
+  margin-bottom: 0px;
+  margin-top: 25px;
+}
+
+.block-url .blocktext {
+  color: #ffffff;
+  font-size: 14pt;
+  margin-bottom: 0px;
+}
+
+.block-url .blockline {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+
+.footer-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-block .clintszone {
+  width: 50%;
+}
+
+.footer-block .clintszone .clienttitle {
+  font-size: 24pt;
+  color: #555555;
+}
+
+.footer-block .clintszone .clientlogo {
+  width: 84px;
+  height: 84px;
+  background-color: #cccccc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 45%;
+          flex: 1 1 45%;
+}
+
+.footer-block .clintszone .clientblock {
+  max-width: 450px;
+  font-size: 14pt;
+  border-width: 0 1px 0 0;
+  padding-right: 10px;
+  color: #555555;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 55%;
+          flex: 1 1 55%;
+}
+
+.footer-block .clintszone .clientjob {
+  color: #00aeef;
+}
+
+.footer-block .clintszone .clientblock p {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-block .linevertical {
+  border-left: 2px solid #2b2b2b7e;
+  height: 800px;
+}
+
+.footer-block .featured-project {
+  margin-left: 50px;
+  width: 50%;
+}
+
+.footer-block .featured-project .projecttitle {
+  color: #555555;
+  font-size: 24pt;
+  margin-top: 32px;
+}
+
+.footer-block .featured-project .yoshi {
+  color: #a4a4a4;
+}
+
+.footer-block .featured-project .titleyoshi {
+  font-size: 20pt;
+}
+
+.footer-block .featured-project .pictextyoshi .yoshiurl {
+  font-size: 14pt;
+}
+
+.footer-block .featured-project .yoshiurl {
+  text-decoration: none;
+  color: #00aeef;
+}
+
+.sub {
+  color: #888888;
+  font-size: 16pt;
+}
+/*# sourceMappingURL=styles.css.map */

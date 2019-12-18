@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-block {
+  background-color: #333333;
+  display: flex;
+  // justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.headername {
+  .headertext {
+    color: #eeeeee;
+    font-size: 60pt;
+    margin: 45px 0px 50px 70px;
+  }
+}
+
+.headernavi {
+  margin: 75px 70px 50px 0px;
+  margin-left: auto;
+
+  .navibotton {
+    list-style-type: none;
+  }
+
+  .startpage {
+    color: #03a6e2;
+  }
+
+  p {
+    display: inline-block;
+  }
+
+  a {
+    text-decoration: none;
+    color: #eeeeee;
+  }
+
+  .navidecor {
+    color: #eeeeee;
+    padding: 0px 12px;
+    font-size: 16pt;
+  }
+}
+
+.work-space {
+  margin: 0px 70px;
+  text-align: left;
+}
+
+.welcom-text {
+  .teitletext {
+    font-size: 60pt;
+    font-weight: bold;
+    color: #333333;
+
+    p {
+      margin-bottom: 0px;
+    }
+
+    span {
+      color: aqua;
+    }
+  }
+
+  .titlecomment {
+    font-size: 50pt;
+    color: #bbbbbb;
+
+    p {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+  }
+
+  .maintext {
+    font-size: 34pt;
+    color: #555555;
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .bottomline {
+    border-bottom: 1px solid #bbbbbb;
+    margin: 36px 0px;
+  }
+}
+
+.block-url {
+  text-align: center;
+
+  .webdisignblock,
+  .marketingblock,
+  .optimizationblock {
+    border: 1px solid #00aeef;
+    box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+    background: #00aeef;
+    padding: 0px 24px;
+    text-align: center;
+    width: 310px;
+    height: 425px;
+    display: inline-block;
+    margin: 45px 0px;
+
+    .bottom {
+      text-decoration: none;
+      display: inline-block;
+      background: #0076a3;
+      color: #fff;
+      padding: 15px 42px;
+      border-radius: 3px;
+      text-decoration: none;
+      font-family: Tahoma;
+      font-size: 14pt;
+      line-height: 1;
+      font-weight: 100;
+      margin-top: 47px;
+      margin-bottom: 34px;
+    }
+  }
+
+  .marketingblock {
+    margin: 0px 60px;
+  }
+
+  .blockheader {
+    color: #ffffff;
+    font-size: 40pt;
+    margin-bottom: 0px;
+    margin-top: 25px;
+  }
+  .blocktext {
+    color: #ffffff;
+    font-size: 14pt;
+    margin-bottom: 0px;
+  }
+
+  .blockline {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: #ffffff;
+  }
+}
+
+.footer-block {
+  display: flex;
+
+  .clintszone {
+    width: 50%;
+
+    .clienttitle {
+      font-size: 24pt;
+      color: #555555;
+    }
+
+    .clientlogo {
+      width: 84px;
+      height: 84px;
+      background-color: #cccccc;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-right: 10px;
+      flex: 1 1 45%;
+    }
+
+    .clientblock {
+      max-width: 450px;
+      font-size: 14pt;
+      border-width: 0 1px 0 0;
+      padding-right: 10px;
+      color: #555555;
+      display: flex;
+      flex: 1 1 55%;
+    }
+
+    .clientjob {
+      color: #00aeef;
+    }
+
+    .clientblock p {
+      align-items: center;
+    }
+  }
+
+  .linevertical {
+    border-left: 2px solid #2b2b2b7e;
+    height: 800px;
+  }
+
+  .featured-project {
+    margin-left: 50px;
+    width: 50%;
+    .projecttitle {
+      color: #555555;
+      font-size: 24pt;
+      margin-top: 32px;
+    }
+    .yoshi {
+      color: #a4a4a4;
+    }
+    .titleyoshi {
+      font-size: 20pt;
+    }
+    .pictextyoshi .yoshiurl {
+      font-size: 14pt;
+    }
+    .yoshiurl {
+      text-decoration: none;
+      color: #00aeef;
+    }
+  }
+}
+.sub {
+  color: #888888;
+  font-size: 16pt;
+}
